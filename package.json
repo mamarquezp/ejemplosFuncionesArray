@@ -1,0 +1,30 @@
+{
+  "name": "ejemplosfuncionesarray",
+  "version": "1.0.0",
+  "description": "Ejemplos funciones de arrays",
+  "homepage": "https://github.com/mamarquezp/ejemplosFuncionesArray#readme",
+  "bugs": {
+    "url": "https://github.com/mamarquezp/ejemplosFuncionesArray/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamarquezp/ejemplosFuncionesArray.git"
+  },
+  "license": "ISC",
+  "author": "Mike Marquez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cola": "node src/cola.js",
+    "pila": "node src/pila.js",
+    "map": "node src/map.js",
+    "filter": "node src/filter.js"    
+  },
+  "dependencies": {
+    "colours": "^0.6.0-2",
+    "inquirer": "^12.5.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {}
+}
